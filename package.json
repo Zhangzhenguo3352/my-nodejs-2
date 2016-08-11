@@ -1,0 +1,19 @@
+{
+  "name": "node2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ser"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zhangzhenguo3352/my-nodejs-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zhangzhenguo3352/my-nodejs-2/issues"
+  },
+  "homepage": "https://github.com/Zhangzhenguo3352/my-nodejs-2#readme"
+}

@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .active{
+            height:100px;
+            width:100px;
+            background: red;
+            -webkit-transition: 1s all;
+            -moz-transition: 1s all ;
+            -ms-transition: 1s all ;
+            -o-transition: 1s all;
+            transition: 1s all;
+        }
+        .active:hover{
+            -webkit-transform: translate(100px, 100px);
+            -moz-transform: translate(100px, 100px);
+            -ms-transform: translate(100px, 100px);
+            -o-transform: translate(100px, 100px);
+            transform: translate(100px, 100px);
+        }
+    </style>
+</head>
+<body>
+<div class="active"></div>
+<ul>
+    <li><a href="/">首页</a></li>
+    <li><a href="/a">A页面</a></li>
+    <li><a href="/b">B页面</a></li>
+</ul>
+<h3>这是首页</h3>
+<div>DIV-首页</div>
+</body>
+</html>
